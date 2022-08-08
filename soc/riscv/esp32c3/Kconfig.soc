@@ -42,4 +42,11 @@ config ESP32_PHY_MAX_TX_POWER
 	int
 	default ESP32_PHY_MAX_WIFI_TX_POWER
 
+config COMPRESSED_ISA
+  default y
+
+config RISCV_ATOMICS_ISA
+  default n
+
+
 endif

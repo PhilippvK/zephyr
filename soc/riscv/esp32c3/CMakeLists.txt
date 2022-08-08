@@ -83,3 +83,5 @@ endif()
 board_finalize_runner_args(esp32 "--esp-boot-address=${boot_off}")
 
 board_finalize_runner_args(esp32 "--esp-app-address=${img_0_off}")
+
+board_finalize_runner_args(esp32 "--esp-baud-rate=460800")
